@@ -1,61 +1,67 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
+
+body {
   font-family: Cooper Hewitt;
   font-size: 16px;
   background-color: #004d9d;
   color: #ffffff;
 }
 
-a{
+a {
   color: #ffffff;
   text-decoration: none;
 }
 
-section{
-  height: 100vh;
-  background-image: url(Liliana-Garcia_1.jpg);
+section {
   background-size: cover;
   background-attachment: fixed;
 }
 
-header{
-  position: fixed;
-  top: 20px;
-  left:  20px;
+.image_1 {
+  height: 600px;
+  background-image: url(Liliana-Garcia_1.jpg);
 }
 
-footer{
+.image_2 {
+  height: 600px;
+  background-image: url(Liliana-Garcia_2.jpg);
+}
+
+.image_3 {
+  height: 600px;
+  background-image: url(Liliana-Garcia_3.jpg);
+}
+
+.image_4 {
+  height: 600px;
+  background-image: url(Liliana-Garcia_4.jpg);
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
   position: fixed;
   bottom: 20px;
   left: 20px;
 }
 
-h1{
+h1 {
   font-size: 24px;
   margin-bottom: 5px;
 }
 
-footer a{
+footer a {
   margin-right: 5px;
 }
 
-a:hover{
+a:hover {
   color: #dddddd;
-}
-
-.image_2{
-  background-image: url(Liliana-Garcia_2.jpg);
-}
-
-.image_3{
-  background-image: url(Liliana-Garcia_3.jpg);
-}
-
-.image_4{
-  background-image: url(Liliana-Garcia_4.jpg);
 }
